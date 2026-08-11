@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add_box" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="estilo.css" />
+        <title>NoteBuddy</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="todo-app">
+                <h2>To-do List<img src="/src/note.png"></h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="add your text" />
+                    <button onclick="addTask()"><span class="material-symbols-outlined">add_box</span></button>
+                </div>
+                <!--row-->
+                <ul id="list-container">
+                    <!--<li class="checked">Task 01</li>
+                    <li>Task 02</li>
+                    <li>Task 03</li>-->
+                </ul>
+            </div>
+            <!--todo-app-->
+        </div>
+        <!--container-->
+        <script src="logica.js"></script>
+    </body>
+</html>
